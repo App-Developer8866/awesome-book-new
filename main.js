@@ -18,6 +18,7 @@ btn.addEventListener('click', () => {
   } else {
     const books = JSON.parse(localStorage.getItem('data')) == null ? [] : JSON.parse(localStorage.getItem('data'));
     const bookObj = {
+      id: new Date().getUTCMilliseconds(),
       title: Title.value,
       author: Author.value,
     };
@@ -27,6 +28,15 @@ btn.addEventListener('click', () => {
   }
 });
 
+// remove book
+const removeBook = (id) => {
+  const books = JSON.parse(localStorage.getItem('data')) === null ? [] : JSON.parse(localStorage.getItem('data'));
+  if (books.length > 0) {
+    const filteredBooks = books?.filter((i) => i?.id !== id);
+    localStorage.setItem('data', JSON.stringify(filteredBooks));
+    window.location.reload();
+  }
+};
 
 // local storage
 window.addEventListener('DOMContentLoaded', () => {
