@@ -13,16 +13,16 @@ const btn = document.querySelector('.form button');
 // create book object
 // add books
 btn.addEventListener('click', () => {
-    const books = JSON.parse(localStorage.getItem('data')) == null ? [] : JSON.parse(localStorage.getItem('data'));
-    const bookObj = {
-      id: new Date().getUTCMilliseconds(),
-      title: Title.value,
-      author: Author.value,
-    };
-    books.push(bookObj);
-    localStorage.setItem('data', JSON.stringify(books));
-    window.location.reload();
-  });
+  const books = JSON.parse(localStorage.getItem('data')) == null ? [] : JSON.parse(localStorage.getItem('data'));
+  const bookObj = {
+    id: new Date().getUTCMilliseconds(),
+    title: Title.value,
+    author: Author.value,
+  };
+  books.push(bookObj);
+  localStorage.setItem('data', JSON.stringify(books));
+  window.location.reload();
+});
 
 // remove book
 const removeBook = (id) => {
