@@ -13,9 +13,6 @@ const btn = document.querySelector('.form button');
 // create book object
 // add books
 btn.addEventListener('click', () => {
-  if (Title.value === '' || Author.value === '') {
-    document.querySelector('.form > span').textContent = 'All fields are required!';
-  } else {
     const books = JSON.parse(localStorage.getItem('data')) == null ? [] : JSON.parse(localStorage.getItem('data'));
     const bookObj = {
       id: new Date().getUTCMilliseconds(),
@@ -25,8 +22,7 @@ btn.addEventListener('click', () => {
     books.push(bookObj);
     localStorage.setItem('data', JSON.stringify(books));
     window.location.reload();
-  }
-});
+  });
 
 // remove book
 const removeBook = (id) => {
