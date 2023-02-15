@@ -9,7 +9,6 @@ const Title = document.querySelector('.title');
 const Author = document.querySelector('.author');
 const btn = document.querySelector('.form button');
 
-
 // create book object
 // add books
 btn.addEventListener('click', () => {
