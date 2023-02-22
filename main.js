@@ -3,16 +3,16 @@
 import { DateTime } from './modules/luxon.js';
 import Book from './modules/Book.js';
 
-const booksList = document.getElementById('booksList');
-const newBook = document.getElementById('newBook');
-const contactInfo = document.getElementById('contactInfo');
-const recordSec = document.querySelector('.record-section');
 const addForm = document.querySelector('.form');
 const contactSec = document.querySelector('.contact');
 const showBooks = document.querySelector('.record');
 const Title = document.querySelector('.title');
 const Author = document.querySelector('.author');
 const btn = document.querySelector('.form button');
+const booksList = document.getElementById('booksList');
+const newBook = document.getElementById('newBook');
+const contactInfo = document.getElementById('contactInfo');
+const recordSec = document.querySelector('.record-section');
 const currentDate = DateTime.local();
 
 const newDate = currentDate.toLocaleString({
