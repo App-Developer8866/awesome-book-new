@@ -76,7 +76,7 @@ After you're finished please remove all the comments and instructions!
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone https://github.com/App-Developer8866/awesome-book-new.git
+- On the terminal run this command git clone https://github.com/App-Developer8866/awesome-book.git
 
 - Go to the repository folder using command prompt cd Awesome-books.
 
@@ -103,7 +103,7 @@ Clone this repository to your desired folder:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone https://github.com/App-Developer8866/awesome-book-new.git
+- On the terminal run this command git clone https://github.com/App-Developer8866/awesome-book.git
 
 - Go to the repository folder using command prompt cd Awesome-books.
 
@@ -130,7 +130,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/App-Developer8866/awesome-book-new/issues).
+Feel free to check the [issues page](https://github.com/App-Developer8866/awesome-book/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
