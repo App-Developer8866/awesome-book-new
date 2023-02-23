@@ -1,16 +1,23 @@
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
 
-# 📗 Table of Contents
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-- [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -115,7 +122,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
