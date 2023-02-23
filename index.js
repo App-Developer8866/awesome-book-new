@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable no-unused-vars */
-import { DateTime } from './modules/luxon.js';
+import { DateTime } from './modules/loxon.js';
 import Book from './modules/Book.js';
 
 // variables
