@@ -1,8 +1,11 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable no-undef */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable no-unused-vars */
-import { DateTime } from './modules/luxon.js';
+import { DateTime } from './modules/loxon.js';
 import Book from './modules/Book.js';
 
+// variables
 const addForm = document.querySelector('.form');
 const contactSec = document.querySelector('.contact');
 const showBooks = document.querySelector('.record');
@@ -15,6 +18,7 @@ const contactInfo = document.getElementById('contactInfo');
 const recordSec = document.querySelector('.record-section');
 const currentDate = DateTime.local();
 
+// get time
 const newDate = currentDate.toLocaleString({
   month: 'long',
   day: 'numeric',
@@ -22,6 +26,7 @@ const newDate = currentDate.toLocaleString({
 });
 const newTime = currentDate.toLocaleString(DateTime.TIME_WITH_SECONDS).toLowerCase();
 
+// create book object
 const bookc = new Book();
 
 document.getElementById('current-date').innerHTML = `${newDate}, ${newTime}`;
@@ -45,7 +50,6 @@ contactInfo.addEventListener('click', () => {
   contactSec.style.display = 'block';
 });
 
-// create book object
 // add books
 btn.addEventListener('click', () => {
   if (Title.value === '' || Author.value === '') {
@@ -60,14 +64,12 @@ btn.addEventListener('click', () => {
   }
 });
 
-// ***********
-
+// remove book
 window.remove = (id) => {
   bookc.removeBook(id);
 };
 
-// Locale storage
-
+// local storage
 window.addEventListener('DOMContentLoaded', () => {
   recordSec.style.display = 'block';
   addForm.style.display = 'none';
